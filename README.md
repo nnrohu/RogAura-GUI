@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="URL_TO_YOUR_APP_ICON_OR_LOGO" width="128" />
+  <img src="./RogAura/Assets.xcassets/AppIcon.appiconset/128-mac.png" width="128" />
   <h1>Rog Aura for macOS</h1>
   <p>A modern macOS menu bar application for controlling the RGB lighting on ASUS ROG keyboards.</p>
   
@@ -10,7 +10,8 @@
   </p>
 </div>
 
-![App Screenshot](URL_TO_YOUR_APP_SCREENSHOT.png)
+![App Screenshot](./screenshoots/main.png)
+![App Screenshot](./screenshoots/preset.png)
 
 ## About The Project
 
