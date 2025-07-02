@@ -49,7 +49,7 @@ Follow this repo [macRogAuraCore](https://github.com/nnrohu/macRogAuraCore)
 
 The easiest way to install the app is using the pre-built disk image.
 
-1.  Go to the [**Releases Page**](URL_TO_YOUR_GITHUB_RELEASES_PAGE) on this repository.
+1.  Go to the [**Releases Page**](https://github.com/nnrohu/RogAura-GUI/releases/tag/v1.0) on this repository.
 2.  Download the latest `.dmg` file.
 3.  Open the DMG and drag **Rog Aura.app** into your `/Applications` folder.
 
