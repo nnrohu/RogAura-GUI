@@ -6,8 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F96340992E13AD6F00975FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340982E13AD6F00975FED /* ContentView.swift */; };
+		F963409E2E13AE6100975FED /* KeyboardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963409D2E13AE5100975FED /* KeyboardState.swift */; };
+		F96340A02E13AF9700975FED /* EffectPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963409B2E13AE2B00975FED /* EffectPreset.swift */; };
+		F96340AD2E15141400975FED /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340AC2E15141200975FED /* HeaderView.swift */; };
+		F96340AF2E1514A000975FED /* ControlButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340AE2E15149E00975FED /* ControlButtonView.swift */; };
+		F96340B12E1514AE00975FED /* ControlSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340B02E1514AD00975FED /* ControlSectionView.swift */; };
+		F96340B32E1514B900975FED /* MarkedSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340B22E1514B600975FED /* MarkedSlider.swift */; };
+		F96340B52E1514C500975FED /* ZoneHotspotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340B42E1514C200975FED /* ZoneHotspotView.swift */; };
+		F96340BB2E15160400975FED /* InteractiveKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340BA2E15160300975FED /* InteractiveKeyboardView.swift */; };
+		F96340BD2E15160E00975FED /* SavePresetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340BC2E15160D00975FED /* SavePresetView.swift */; };
+		F96340C22E15162E00975FED /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96340C12E15162C00975FED /* ErrorView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F96340772E12DD4C00975FED /* RogAura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RogAura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96340982E13AD6F00975FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F963409B2E13AE2B00975FED /* EffectPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectPreset.swift; sourceTree = "<group>"; };
+		F963409D2E13AE5100975FED /* KeyboardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardState.swift; sourceTree = "<group>"; };
+		F96340AC2E15141200975FED /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F96340AE2E15149E00975FED /* ControlButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlButtonView.swift; sourceTree = "<group>"; };
+		F96340B02E1514AD00975FED /* ControlSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlSectionView.swift; sourceTree = "<group>"; };
+		F96340B22E1514B600975FED /* MarkedSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkedSlider.swift; sourceTree = "<group>"; };
+		F96340B42E1514C200975FED /* ZoneHotspotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoneHotspotView.swift; sourceTree = "<group>"; };
+		F96340BA2E15160300975FED /* InteractiveKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveKeyboardView.swift; sourceTree = "<group>"; };
+		F96340BC2E15160D00975FED /* SavePresetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePresetView.swift; sourceTree = "<group>"; };
+		F96340C12E15162C00975FED /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +57,9 @@
 		F963406E2E12DD4C00975FED = {
 			isa = PBXGroup;
 			children = (
+				F963409F2E13AE9A00975FED /* Views */,
+				F963409C2E13AE4900975FED /* State */,
+				F963409A2E13AE2200975FED /* Models */,
 				F96340792E12DD4C00975FED /* RogAura */,
 				F96340782E12DD4C00975FED /* Products */,
 			);
@@ -43,6 +71,54 @@
 				F96340772E12DD4C00975FED /* RogAura.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F963409A2E13AE2200975FED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F963409B2E13AE2B00975FED /* EffectPreset.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F963409C2E13AE4900975FED /* State */ = {
+			isa = PBXGroup;
+			children = (
+				F963409D2E13AE5100975FED /* KeyboardState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		F963409F2E13AE9A00975FED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F96340B92E1515F700975FED /* Feature */,
+				F96340AB2E1513F900975FED /* Components */,
+				F96340982E13AD6F00975FED /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F96340AB2E1513F900975FED /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F96340B42E1514C200975FED /* ZoneHotspotView.swift */,
+				F96340B22E1514B600975FED /* MarkedSlider.swift */,
+				F96340B02E1514AD00975FED /* ControlSectionView.swift */,
+				F96340AE2E15149E00975FED /* ControlButtonView.swift */,
+				F96340AC2E15141200975FED /* HeaderView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F96340B92E1515F700975FED /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				F96340C12E15162C00975FED /* ErrorView.swift */,
+				F96340BC2E15160D00975FED /* SavePresetView.swift */,
+				F96340BA2E15160300975FED /* InteractiveKeyboardView.swift */,
+			);
+			path = Feature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +195,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F96340BD2E15160E00975FED /* SavePresetView.swift in Sources */,
+				F96340AD2E15141400975FED /* HeaderView.swift in Sources */,
+				F96340992E13AD6F00975FED /* ContentView.swift in Sources */,
+				F96340BB2E15160400975FED /* InteractiveKeyboardView.swift in Sources */,
+				F96340B12E1514AE00975FED /* ControlSectionView.swift in Sources */,
+				F96340AF2E1514A000975FED /* ControlButtonView.swift in Sources */,
+				F96340B52E1514C500975FED /* ZoneHotspotView.swift in Sources */,
+				F96340C22E15162E00975FED /* ErrorView.swift in Sources */,
+				F96340B32E1514B900975FED /* MarkedSlider.swift in Sources */,
+				F96340A02E13AF9700975FED /* EffectPreset.swift in Sources */,
+				F963409E2E13AE6100975FED /* KeyboardState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +247,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -223,6 +311,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -249,17 +338,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RogAura/RogAura.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RogAura/Preview Content\"";
+				DEVELOPMENT_TEAM = DR8X86LDJH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nnrohu.RogAura;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,17 +367,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RogAura/RogAura.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RogAura/Preview Content\"";
+				DEVELOPMENT_TEAM = DR8X86LDJH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nnrohu.RogAura;
 				PRODUCT_NAME = "$(TARGET_NAME)";
