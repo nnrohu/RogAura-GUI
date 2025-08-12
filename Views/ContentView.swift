@@ -266,7 +266,10 @@ struct SettingsTabView: View {
                     "Launch at Login", isOn: $state.launchAtLoginEnabled
                 )
                 .onChange(of: state.launchAtLoginEnabled) { _ in
-                    state.toggleLaunchAtLogin()
+                    Task {
+                                await state.toggleLaunchAtLogin()
+                            }
+                    
                 }
 
                 // Add a button to show the CLI tool in Finder
